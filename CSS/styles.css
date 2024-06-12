@@ -11,6 +11,7 @@ body {
     background: url('../Img/Background/sci-fi-bg2.webp') center center fixed;
     letter-spacing: 0.1em;
     padding-top: 80px; /* Adjust according to the height of your navbar */
+    background-color: #0000008a;
 }
 
 a.no-style {

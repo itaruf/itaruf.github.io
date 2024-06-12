@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\professional.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:professional.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\CSS\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\presentation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:presentation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\tab.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -39,12 +19,28 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:navbar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:navigation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\professional.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:professional.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\CSS\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\presentation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:presentation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -66,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -84,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "professional.html",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\professional.html",
               "RelativeDocumentMoniker": "professional.html",
@@ -98,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "projects.html",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\projects.html",
               "RelativeDocumentMoniker": "projects.html",
               "ToolTip": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\projects.html",
               "RelativeToolTip": "projects.html",
-              "ViewState": "AQIAAHwBAAAAAAAAAAAAAJ8BAABMAAAA",
+              "ViewState": "AQIAAHwBAAAAAAAAAAAAAIsBAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-10T14:01:23.825Z",
               "IsPinned": true,
@@ -112,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "navigation.html",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\navigation.html",
               "RelativeDocumentMoniker": "navigation.html",
@@ -126,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "presentation.html",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\presentation.html",
               "RelativeDocumentMoniker": "presentation.html",
@@ -140,21 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "contacts.html",
-              "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\contacts.html",
-              "RelativeDocumentMoniker": "contacts.html",
-              "ToolTip": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\contacts.html",
-              "RelativeToolTip": "contacts.html",
-              "ViewState": "AQIAABIAAAAAAAAAAAArwCgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-10T14:05:30.151Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "custom-element.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\custom-element.js",
               "RelativeDocumentMoniker": "custom-element.js",
@@ -168,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "presentation.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\presentation.js",
               "RelativeDocumentMoniker": "presentation.js",
@@ -182,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "shared.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\shared.js",
               "RelativeDocumentMoniker": "shared.js",
@@ -196,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "navbar.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\navbar.js",
               "RelativeDocumentMoniker": "navbar.js",
@@ -210,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\app.js",
               "RelativeDocumentMoniker": "app.js",
@@ -224,13 +206,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "tab.js",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\tab.js",
               "RelativeDocumentMoniker": "tab.js",
               "ToolTip": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\tab.js",
               "RelativeToolTip": "tab.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-06-10T13:51:00.853Z",
               "IsPinned": true,
@@ -258,7 +240,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\Imane\\Documents\\GitHub\\itaruf.github.io\\CSS\\styles.css",
               "RelativeDocumentMoniker": "CSS\\styles.css",

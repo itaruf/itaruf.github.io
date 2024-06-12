@@ -91,7 +91,7 @@ img.itchio-logo {
     cursor: pointer;
     padding: 0.5em 1em;
     transition: background-color 0.3s;
-    background: #1f1a35d9;
+    background: #17122be3;
 }
 
     .tab:hover, .subtab:hover, .projectsubtab:hover {
@@ -126,7 +126,7 @@ img.itchio-logo {
     text-align: justify;
     border-right: none;
     border-bottom: none;
-    background: #1f1a35d9;
+    background: #17122be3;
     padding: 3em 2em 2em 2em;
     border: 1px solid rgb(236 236 236 / 40%);
 }
@@ -208,7 +208,7 @@ img.itchio-logo {
     padding: 10px 20px;
     font-size: 1rem;
     color: white;
-    background-color: #1f1a35d9;
+    background-color: #17122be3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -223,7 +223,7 @@ img.itchio-logo {
     display: inline-block;
     font-size: 1rem;
     color: white;
-    background-color: #f950cf38;
+    background-color: #17122be3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -240,7 +240,7 @@ img.itchio-logo {
     }
 
 .navbar {
-    background-color: #1f1a35d9;
+    background-color: #17122be3;
     position: fixed;
     top: 0;
     width: 100%;
@@ -278,6 +278,7 @@ img.itchio-logo {
     .nav-link:hover {
         background: #2e0fabbf;
         color: white;
+        transition: background-color 0.3s, transform 0.3s;
     }
 
     .nav-link:focus {

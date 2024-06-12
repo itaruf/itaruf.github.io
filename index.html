@@ -1,603 +1,84 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Imane's portfolio</title>
-    <link href=“https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css” />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-          crossorigin="anonymous" />
-    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imane Taruf's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-            asyncintegrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-            crossorigin="anonymous"></script>
-    <link rel="icon" href="Img\Items\controller.png" />
-    <audio id="btn_sound" src="Audio/btn_sound.wav" preload="auto"></audio>
+    <link rel="icon" href="Img/Items/controller.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" async crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-
-<body class=""
-      data-spy="scroll"
-      data-target="#navbar-example2"
-      data-offset="0">
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
     <div id="nav-placeholder"></div>
-    <!--BEGIN PRESENTATION-->
-    <div class="intro-row" id="presentation">
-        <div class="videoBackgroundWrapper">
-            <video preload="auto"
-                   muted
-                   class="videoBackground">
-            </video>
+    <div id="subtab1" class="subtab-content active">
+        <!--BEGIN PRESENTATION-->
+        <div class="intro-row" id="presentation">
             <div class="overlay">
                 <h2>
                     Imane Taruf
                     <br />
-                    Junior Programmer
+                    Programmer
                 </h2>
-                <br />
-                <p>Don't hesitate to check my resume !</p>
-                <button class="portfolio-logo bubbly-button" onclick="window.open('https://drive.google.com/file/d/1wMqFc-lvsAWPdBPOnZ3aagv8xZ550PDB/view?usp=sharing', '_blank')">
-                    <i class="bi-file-earmark-text-fill"></i>
+                <button class="bubbly-button" onclick="window.open('https://drive.google.com/file/d/1wMqFc-lvsAWPdBPOnZ3aagv8xZ550PDB/view?usp=sharing', '_blank')">
+                    <i class="bi bi-file-earmark-text-fill"></i>
                 </button>
             </div>
         </div>
-    </div>
-    <!--END PRESENTATION-->
-    <!--BEGIN SUBTABS FOR ABOUT ME-->
-    <div id="tab1" class="tab-content active">
-        <ul class="subtabs">
-            <li class="subtab" onclick="showSubTab('subtab1')">Profile</li>
-            <li class="subtab" onclick="showSubTab('subtab2')">Work Experience</li>
-            <li class="subtab" onclick="showSubTab('subtab3')">School Background</li>
-        </ul>
-    </div>
-    <!--END SUBTABS FOR ABOUT ME-->
-    <!--BEGIN PROFILE TAB-->
-    <br />
-    <div id="subtab1" class="subtab-content active">
-        <div class="row-border-top col-lg-12" id="about-title">
-            <div class="flex-container">
-                <div class="flex-child magenta">
-                    <h1 class="h1-about">
-                        Profile
-                    </h1>
-                </div>
-            </div>
-        </div>
-        <br /><br /><br />
+        <!--BEGIN HOME TAB-->
+        <br />
         <!--BEGIN WHO AM I ?-->
         <div id="about">
             <div class="col-lg-6 col-md-12 col-sm-12 descriptif">
-                <div class="about-title-section">
-                    <div class="section">
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Who are you ?
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li">
-                                Hello ! <br /><br />
-                                I'm Imane Taruf, a programmer currently residing near Paris, France. I studied computer science in a 3-year bachelor's course, followed by a master's in game programming in a 2-year program. During this period, I completed a 6-month internship at Ubisoft Bordeaux as a <highlight>Gameplay Programmer Intern on Assassin's Creed Mirage.</highlight>
-                                <br /><br />
-                            </li>
-                        </ul>
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            What are your interests ?
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li">
-                                I play video games.. but also develop them through game jams all year long ! To keep this flame of creativity and fun always burning and stay wary of the latest technologies are both very important to me, as we know how fast an industry can evolve, and how technologies like AI is changing our habits and is shaping the future of many industries, video games included.
-                                <br /><br />
-                                That's not all, as I'm also interested in the Japanese culture, and have been at hard work to improve my Japanese skills. Japan has played a big part in influencing my career choice since many of the wonderful games I played were developed by Japanese game studios !
-                                <br /><br />
-                            </li>
-                        </ul>
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Career pathes you want to pursue ?
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li">
-                                I got to experience many aspects of game development, and learnt different roles that I hadn't consider beforehands: I got even more curious about what programming could lead me to, and possibly overseas (EU, USA, Canada, Japan, ...).
-                                <br /><br />
-                                Today, I'm aiming for roles in tech companies where I'll be able to further develop my skills and become an expert at programming:
-                                <br /><br />
-                            </li>
-                        </ul>
-
-                        <div class="flex-container">
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Game Programmer (AI, 3C, UI, System, Sound, ...)</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Unreal Engine Programmer</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Unity Programmer</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>System Programmer</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Software Engineer</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>C++ Programmer</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Tools Support Specialist</highlight>
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    <highlight>Tools Programmer</highlight>
-                                </li>
-                                </h1>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="section">
+                    <h1 class="h1-section-title">
+                        <i class="bi bi-star-fill"></i>
+                        Who are you?
+                    </h1>
+                    <ul class="skill-list">
+                        <li class="custom-li">
+                            I'm Imane Taruf, a programmer currently residing near Paris, France. I studied computer science in a 3-year bachelor's course, followed by a master's in game programming in a 2-year program. During this period, I completed a 6-month internship at Ubisoft Bordeaux as a <highlight>Gameplay Programmer Intern on Assassin's Creed Mirage.</highlight>
+                            <br /><br />
+                        </li>
+                    </ul>
+                    <h1 class="h1-section-title">
+                        <i class="bi bi-star-fill"></i>
+                        What are your interests ?
+                    </h1>
+                    <ul class="skill-list">
+                        <li class="custom-li">
+                            I play video games but also develop them through game jams all year long! Keeping the flame of creativity and fun always burning and staying aware of the latest technologies are both very important to me. As we know, industries evolve rapidly, and technologies like AI are changing our habits and shaping the future of many sectors, including video games.
+                            <br /><br />
+                            That's not all; I'm also interested in Japanese culture and have been hard at work to improve my Japanese skills. Japan has significantly influenced my career choice, as many of the wonderful games I played were developed by Japanese game studios!
+                            <br /><br />
+                            I got to experience many aspects of game development and learned different roles that I hadn't considered beforehand. I became even more curious about where programming could lead me, possibly overseas (EU, USA, Canada, Japan, ...).
+                            <br /><br />
+                            Today, I'm aiming for roles in tech companies where I can further develop my skills and become an expert at programming.
+                            <br /><br />
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!--END WHO AM I-->
     </div>
-    <!--END PROFILE TAB-->
-    <!--BEGIN WORK EXPERIENCE TAB-->
+    <!--END WHO AM I-->
     <div id="subtab2" class="subtab-content">
-        <div class="row-border-top col-lg-12" id="about-title">
-            <div class="flex-container">
-                <div class="flex-child magenta">
-                    <h1 class="h1-about">
-                        Work Experience
-                    </h1>
-                </div>
-            </div>
-        </div>
-        <br /><br /><br />
-        <!--BEGIN GAMEPLAY PROGRAMMER INTERN -->
-        <div id="about">
-            <div class="col-lg-6 col-md-12 col-sm-12 descriptif">
-                <div class="about-title-section">
-                    <div class="section">
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Gameplay Programmer Intern
-                        </h1>
-                    </div>
-                    <div class="section">
-                        <div class="flex-container-game-development">
-                            <img class="ubisoft-cover-image"
-                                 src="Img\ubisoft-logo.png"
-                                 alt="" />
-                            <h1 class="h1-section">
-                                Ubisoft Bordeaux.<br>Bordeaux, France.<br> From February 2023 to August 2023.<br />
-                                Company's website:
-                                <button class="bubbly-button" onclick="window.open('https://www.ubisoft.com/en-us/', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                            </h1>
-                        </div>
-                        <br /><br /><br />
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Missions
-                        </h1>
-                        <div class="text-section">
-                            <ul class="skill-list">
-                                <li class="custom-li test">
-                                    <i class="bi bi-arrow-right-short"></i>
-                                    Participate in the creation of the cross-platform game Assassin's Creed Mirage (Amazon Luna, PS4 & PS5, Windows, Xbox One, Xbox Series X/S).
-                                </li>
-                                <li class="custom-li test">
-                                    <i class="bi bi-arrow-right-short"></i>
-                                    Develop complex gameplay systems in C++, such as player actions, character behaviors, game elements, and progression while interacting with a large base code.
-                                </li>
-                                <li class="custom-li test">
-                                    <i class="bi bi-arrow-right-short"></i>
-                                    Work on various topics (UI, AI, 3C, etc.) using multiple tools to provide optimized solutions.
-                                </li>
-                                <li class="custom-li test">
-                                    <i class="bi bi-arrow-right-short"></i>
-                                    Collaborate with interdisciplinary and international teams to clarify design requirements.
-                                </li>
-                                <li class="custom-li test">
-                                    <i class="bi bi-arrow-right-short"></i>
-                                    Review pending solutions to give feedbacks to others and help everyone improving.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="showcase-container">
-                            <div class="flex-container-list">
-                                <ul class="skill-list">
-                                    <h1 class="h1-list-section-title">
-                                        Languages:
-                                    </h1>
-                                    <h1 class="h1-list-section-content">
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        C++
-                                    </li>
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        Zen
-                                    </li>
-                                    </h1>
-                                </ul>
-                                <ul class="skill-list">
-                                    <h1 class="h1-list-section-title">
-                                        Game Engine:
-                                    </h1>
-                                    <h1 class="h1-list-section-content">
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        Anvil
-                                    </li>
-                                    </h1>
-                                </ul>
-                                <ul class="skill-list">
-                                    <h1 class="h1-list-section-title">
-                                        Softwares:
-                                    </h1>
-                                    <h1 class="h1-list-section-content">
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        Visual Studio Community 2022
-                                    </li>
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        JIRA
-                                    </li>
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        Perforce
-                                    </li>
-                                    <li class="custom-li">
-                                        <i class="bi bi-award-fill"></i>
-                                        Confluence
-                                    </li>
-                                    </h1>
-                                </ul>
-                            </div>
-                            <div class="video-section">
-                                <iframe class="showcase-gif" src="https://www.youtube.com/embed/IRNOoOYVn80" frameborder="0" allowfullscreen></iframe>
-                                <button class="portfolio-logo bubbly-button skill-list" onclick="window.location.href=('projects.html')">
-                                    <i class="bi">See my work on Assassin's Creed Mirage</i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--END GAMEPLAY PROGRAMMER INTERN IN GAME PROGRAMMING-->
-        </div>
+        <div id="professional-placeholder"></div>
     </div>
-    <!--END WORK EXPERIENCE TAB-->
-    <!--BEGIN SCHOOL BACKGROUND TAB-->
+    <!--END HOME TAB-->
     <div id="subtab3" class="subtab-content">
-        <div class="row-border-top col-lg-12" id="about-title">
-            <div class="flex-container">
-                <div class="flex-child magenta">
-                    <h1 class="h1-about">
-                        <div>
-                            School Background
-                        </div>
-                    </h1>
-                </div>
-            </div>
-        </div>
-        <br /><br /><br />
-        <!--BEGIN MASTER DEGREE IN COMPUTER SCIENCE-->
-        <div id="about">
-            <div class="col-lg-6 col-md-12 col-sm-12 descriptif">
-                <div class="about-title-section">
-                    <div class="section">
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Master's Degree in Game Programming
-                        </h1>
-                    </div>
-                    <div class="section">
-                        <div class="flex-container-game-development">
-                            <img class="iim-cover-image"
-                                 src="Img\iim-logo.png"
-                                 alt="" />
-                            <h1 class="h1-section">
-                                IIM Digital School.<br> La Défense, France.<br> From September 2021 to August 2023.<br />
-                                School's website:
-                                <button class="bubbly-button" onclick="window.open('https://www.iim.fr/', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                            </h1>
-                        </div>
-                        <br /><br /><br />
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Program
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                2-year course specialized in video game development and programming, during which we enhance our skills in this field and beyond.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                We adopt the mindset of a game company, where we work and develop projects and games with collaborators majoring in Game Art, Game Designer, Game Producer and even Sound Design.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                During my second year of master's studies, I had to validate my degree by completing a 6-month internship at a video game company. This led me to undertake the internship at Ubisoft Bordeaux as a Gameplay Programmer Intern on the game Assassin's Creed Mirage, which was released on October 5, 2023 worldwide.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Below is the list of the main technologies I used all throughout this course:
-                            </li>
-                        </ul>
-                        <div class="flex-container-list">
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-title">
-                                    Languages:
-                                </h1>
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    C++
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    C#
-                                </li>
-                                </h1>
-                            </ul>
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-title">
-                                    Game Engines:
-                                </h1>
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Unreal Engine 4
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Unreal Engine 5
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Unity
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Cocos2D
-                                </li>
-                                </h1>
-                            </ul>
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-title">
-                                    Softwares:
-                                </h1>
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Visual Studio Community 2022
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Visual Studio Community 2019
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    JetBrains Rider
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Git
-                                </li>
-                                </h1>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="section">
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Notable School Projects
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li">
-                                <highlight>Creepy Invaders:</highlight>
-                                <button class="bubbly-button" onclick="window.open('https://wiloux.itch.io/juicy-space-invader', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                2D action-survival game in Unity where the player repels waves of enemies within a limited field of vision and a weapon that can be jammed.
-                            </li>
-                            </li>
-                            <li class="custom-li">
-                                <highlight>DownFall:</highlight>
-                                <button class="bubbly-button" onclick="window.open('https://papermoon-studio.itch.io/downfall', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                3D traversal parkour game in UE4 that alternates between terrestrial and aerial phases.
-                            </li>
-                            </li>
-                            <li class="custom-li">
-                                <highlight>HAT X3:</highlight>
-                                <button class="bubbly-button" onclick="window.open('https://linhlacoste.itch.io/hat-haat-haaaaat', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                                <br />
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                2D fast-paced arcade Amstrad CPC inspired game where 2 players duel each other by throwing hats to knock the other out and score points.
-                            </li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END MASTER DEGREE IN GAME PROGRAMMING-->
-        <!--BEGIN COMPUTER SCIENCE BACHELOR DEGREE-->
-        <div id="about">
-            <div class="col-lg-6 col-md-12 col-sm-12 descriptif">
-                <div class="about-title-section">
-                    <div class="section">
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Bachelor's Degree in Computer Science
-                        </h1>
-                    </div>
-                    <div class="section">
-                        <div class="flex-container-game-development">
-                            <img class="universite-cover-image"
-                                 src="Img\universite-logo.png"
-                                 alt="" />
-                            <h1 class="h1-section">
-                                Université Paris-Cité.<br> Paris, France.<br> From September 2018 to June 2021.<br />
-                                School's website:
-                                <button class="bubbly-button" onclick="window.open('https://u-paris.fr', '_blank')">
-                                    <i class="bi bi-box-arrow-up-right"></i>
-                                </button>
-                            </h1>
-                        </div>
-                        <br /><br /><br />
-                        <h1 class="h1-section-title">
-                            <i class="bi bi-star-fill"></i>
-                            Program
-                        </h1>
-                        <ul class="skill-list">
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                3-year course specialized in computer science and mathematics, during which we covers a broad range of topics to gain a solid foundation in both theoretical and practical aspects of computing.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Data Structures and Algorithms: Understanding how to organize and manipulate data efficiently is crucial. This includes learning about various data structures (arrays, linked lists, trees, graphs) and algorithms for searching, sorting, and problem-solving.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Computer Architecture and Organization: Studying the structure and function of computer systems, including CPU design, memory systems, and hardware-software interaction.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Databases: Learning about database design, normalization, and query languages.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Software Engineering: Covering the software development life cycle, software design principles, testing, debugging, and project management.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Networking: Understanding the basics of computer networks, including protocols, network architecture, and network security.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Web Development: Covering both front-end and back-end aspects of web development.
-                            </li>
-                            <li class="custom-li test">
-                                <i class="bi bi-arrow-right-short"></i>
-                                Mobile App Development: Covering the development of applications for mobile platforms such as iOS and Android.
-                            </li>
-                            <br />
-                            <li class="custom-li">
-                                Below is the list of the main technologies I used all throughout this course:
-                            </li>
-                        </ul>
-                        <div class="flex-container-list">
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-title">
-                                    Languages:
-                                </h1>
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    C
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Java
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    HTML
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    CSS
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    JavaScript
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    React
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    React Native
-                                </li>
-                                </h1>
-                            </ul>
-                            <ul class="skill-list">
-                                <h1 class="h1-list-section-title">
-                                    Softwares:
-                                </h1>
-                                <h1 class="h1-list-section-content">
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Visual Studio Community 2019
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Visual Studio Code
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Eclipse
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    Git
-                                </li>
-                                <li class="custom-li">
-                                    <i class="bi bi-award-fill"></i>
-                                    R Studio
-                                </li>
-                                </h1>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END COMPUTER SCIENCE BACHELOR DEGREE-->
+        <div id="projects-placeholder"></div>
     </div>
-    <!--END SCHOOL BACKGROUND TAB-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-            crossorigin="anonymous">
-    </script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="navbar.js"></script>
     <script type="text/javascript" src="custom-element.js"></script>
     <script type="text/javascript" src="presentation.js"></script>
+    <script type="text/javascript" src="tab.js"></script>
 </body>
 </html>

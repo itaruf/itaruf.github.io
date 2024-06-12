@@ -1,0 +1,157 @@
+<div id="tab1" class="tab-content active">
+    <ul class="projectsubtabs">
+        <li class="subtab" data-projecttab="professional1" onclick="showProfessionalTab('professional')">Assassin's Creed Mirage</li>
+    </ul>
+</div>
+<br />
+<br />
+<div id="professional1" class="professional-content active">
+    <div id="about">
+        <div class="col-lg-6 col-md-12 col-sm-12 descriptif">
+            <div class="section">
+                <h1 class="h1-section-title">
+                    <i class="bi bi-star-fill"></i>
+                    Assassin's Creed Mirage
+                </h1>
+            </div>
+            <ul class="section skill-list flex-container-game-development">
+                <img class="ac-mirage-cover-image"
+                     src="Img\game-development\ac-mirage-cover.png"
+                     alt="" />
+                <br />
+                <br />
+                <li class="custom-li test">
+                    "In Assassin's Creed Mirage, you are Basim, a cunning street thief with nightmarish visions seeking answers and justice. Join an ancient organisation and come to understand a new creed - one that will change Basim's fate in ways he never could have imagined.."
+                    <br /> <br />
+                    <div class="skill-list">
+                        Genre: Action-adventure
+                        <br>
+                        Release date: 10/2023
+                        <br />
+                        Game page:
+                        <button class="portfolio-button" onclick="window.open('https://www.ubisoft.com/en-gb/game/assassins-creed/mirage', '_blank')">
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </button>
+                        <br />
+                        Demo:
+                        <button class="portfolio-button" onclick="window.open('https://www.youtube.com/watch?v=IRNOoOYVn80', '_blank')">
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </button>
+                        <br />
+                        Authors: Ubisoft, Bordeaux
+                        <br />
+                        Main techs: Anvil, Visual Studio 2022, Perforce
+                    </div>
+                </li>
+            </ul>
+            <br />
+            <div class="section">
+                <h1 class="h1-section-title">
+                    <i class="bi bi-star-fill"></i>
+                    Main Features I worked on
+                </h1>
+                <div class="showcase-container">
+                    <div class="text-section">
+                        <ul class="skill-list">
+                            <div class="h1-list-section-title list-div">Skill tree: Pathfinder</div>
+                            <li class="custom-li test test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                When the player activates the Thieve Sense near a blending patrol (group of NPC that you can pay with in-game currency to hide with and discretly by-pass guards), their projected pathing is displayed. It allows the player to check in advance if the path these patrols will take is worth the payment.
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                Since it's an unlockable skill that isn't baseline, I had to perform checks to prevent the player from using it until then.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                For this path to stay displayed on screen, the player must be within the patrol leader's range, with the Thieve Sense activated, and on top of that, the leader must be alive.
+                                As such, cooperating with game designers to determine when the pathfinder skill should work or not was really important.
+                            </li>
+                            <div class="h1-list-section-title list-div">Tools</div>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                The player has various tools at their disposal, like torches, smoke bomb, sleep dart, etc. I worked on adjusting interactions between some of them and the environment in which they are used. For example, should smoke-bombs completely blind whoever is inside, or should they just be near-sighted ? Those were questions that I had to clear with game designers first, before fixing.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="showcase-container">
+                        <div class="video-section">
+                            <iframe class="showcase-gif" src="https://giphy.com/embed/aFoUDTqNyXNp1h5j0K" frameborder="0" allowFullScreen></iframe>
+                        </div>
+                        <div class="video-section">
+                            <iframe class="showcase-gif" src="https://giphy.com/embed/ORGZhQ74pz4O1oMp9m" frameBorder="0" allowFullScreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="text-section">
+                        <ul class="skill-list">
+                            <div class="h1-list-section-title list-div">NPC's behaviors</div>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                I worked on multiple aspects of NPC's (humanoids/animals) behaviors and used many debugging tools to analyze their data during play. They allowed me to discern issues and work on ways to fix them. And since AC Mirage is a stealth-focused game, it was important to have polished AIs to immerse the player into it.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                Most of my works done revolved around guards, who can perform many actions, for example, find the player who ran away after a fight. I went from preventing them to check spots that shouldn't be considered, tweaking the way they detect the player, to adjust transition conditions and data between some of their different behavior states.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                More generally, I've added various data for designers to use, like new AI conditions that evaluate if something can be performed. There are just so many cases to consider, which is why collaborating closely with game designers is crucial.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                Working with complex AI systems that operate in parallel was challenging, as there are many things to mind about, but thanks to the team's expertise, I was able to learn a lot from it.
+                            </li>
+                            <div class="h1-list-section-title list-div">Navigation</div>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                I worked on having NPC's more accurately follow their path, which is composed of severals nodes. For each node, I proposed to add a new logic to replace the hard-coded one, where we'd decide the distance between the NPC and the current node to reach and check if this distance condition is met. The NPC then starts to path to the next one.
+                            </li>
+                            <div class="h1-list-section-title list-div">State</div>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                AIs have multiple states that fit a situation. I worked on the Investigation state (where they search for the player) and added a new timer logic to know when this state started and when it ended. Then, I created an AI condition that compares this timer with the chosen comparison symbol. For example, we could force the switch to another state when they have been in Investigation for more than 60 seconds.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <div class="showcase-container">
+                    <div class="text-section">
+                        <ul class="skill-list">
+                            <div class="h1-list-section-title list-div">Eagle's pop-up messages</div>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                The player can call his eagle to scout an area from the sky. However, depending on the context, it could not be available. For example, an archer can take it down, and the player won't be able to use it as long as the archer isn't dead or run away.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                As such, there are multiple and possible pop-up messages that correspond to a situation. I worked on adjusting which message should pop, and created new conditions to check in order to fit more of those situations and display the optimal message to the player.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="video-section">
+                        <iframe class="showcase-gif" src="https://giphy.com/embed/XF4C9DpbAwYKDYMZdI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="showcase-container">
+                    <div class="text-section">
+                        <ul class="skill-list">
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                I worked on many subjects during my time on this project, and got to use as many different tools.
+                            </li>
+                            <li class="custom-li test">
+                                <i class="bi bi-arrow-right-short"></i>
+                                Sometimes, after investigation, it's as simple as directly notify another team member on how to quickly fix the issue. For example, tell a game designer to check the content of parameters. Other times, I could adjust those parameters myself.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="video-section">
+                        <iframe class="showcase-gif" src="https://giphy.com/embed/nI07q3xdeLi9innOPQ" frameBorder="0" allowFullScreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,67 +1,55 @@
-function showTab(tabId) {
-    var tabContents = document.querySelectorAll('.tab-content');
-    tabContents.forEach(function (tabContent) {
-        tabContent.classList.remove('active');
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Function to handle tab switching with better performance
+function switchTab(tabId) {
+    const allTabs = document.querySelectorAll('.tab-content');
+    allTabs.forEach(tab => {
+        tab.style.display = 'none'; // Hide all tabs
     });
 
-    var selectedTabContent = document.getElementById(tabId);
-    selectedTabContent.classList.add('active');
-}
+    const activeTab = document.getElementById(tabId);
+    if (activeTab) {
+        activeTab.style.display = 'block'; // Display the clicked tab
+    }
 
-function showSubTab(subtabId) {
-    var subtabContents = document.querySelectorAll('.subtab-content');
-    subtabContents.forEach(function (subtabContent) {
-        subtabContent.classList.remove('active');
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => {
+        tab.classList.remove('active'); // Remove active class from all tabs
     });
 
-    var selectedSubtabContent = document.getElementById(subtabId);
-    selectedSubtabContent.classList.add('active');
-
-    var subtabs = document.querySelectorAll('.subtab');
-    subtabs.forEach(function (subtab) {
-        subtab.classList.remove('active');
-    });
-
-    var selectedSubtab = document.querySelector('.subtab[data-subtab="' + subtabId + '"]');
-    if (selectedSubtab) {
-        selectedSubtab.classList.add('active');
+    const selectedTab = document.querySelector('.tab[data-target="' + tabId + '"]');
+    if (selectedTab) {
+        selectedTab.classList.add('active'); // Add active class to the clicked tab
     }
 }
 
-function showProjectTab(projecttabId) {
-    var projecttabContents = document.querySelectorAll('.projecttab-content');
-    projecttabContents.forEach(function (projecttabContent) {
-        projecttabContent.classList.remove('active');
+// Set up event listeners for tabs
+document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', function () {
+        const tabId = this.getAttribute('data-target');
+        switchTab(tabId);
     });
+});
 
-    var selectedprojecttabContent = document.getElementById(projecttabId);
-    selectedprojecttabContent.classList.add('active');
-
-    var projecttabs = document.querySelectorAll('.projecttab');
-    projecttabs.forEach(function (projecttab) {
-        projecttab.classList.remove('active');
+// Animate buttons on click to give feedback
+document.querySelectorAll('.bubbly-button').forEach(button => {
+    button.addEventListener('click', function () {
+        button.classList.add('animate');
+        setTimeout(() => {
+            button.classList.remove('animate');
+        }, 700); // Animation lasts 700ms
     });
+});
 
-    var selectedprojecttab = document.querySelector('.projecttab[data-projecttab="' + projecttabId + '"]');
-    if (selectedprojecttab) {
-        selectedprojecttab.classList.add('active');
-    }
-}
-
-var animateButton = function (e) {
-
-    e.preventDefault;
-    //reset animation
-    e.target.classList.remove('animate');
-
-    e.target.classList.add('animate');
-    setTimeout(function () {
-        e.target.classList.remove('animate');
-    }, 700);
-};
-
-var bubblyButtons = document.getElementsByClassName("bubbly-button");
-
-for (var i = 0; i < bubblyButtons.length; i++) {
-    bubblyButtons[i].addEventListener('click', animateButton, false);
-}
+// Navigation bar becomes sticky on scroll
+window.onscroll = function () { makeSticky() };
+const header = document.getElementById("myHeader");
+const sticky = header.offse

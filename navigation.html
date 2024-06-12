@@ -1,34 +1,33 @@
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top">
+ï»¿<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
         <div class="nav-item tab-name">Imane Taruf</div>
+        <div class="hamburger-menu" onclick="toggleNavbar()">â˜°</div>
+        <!-- Collapsible Content -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" onclick="showSubTab('subtab1')">Home</a>
+                    <a class="nav-link" onclick="showSubTab('subtab1'); toggleNavbar();">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="showSubTab('subtab2')">Professional XP</a>
+                    <a class="nav-link" onclick="showSubTab('subtab2'); toggleNavbar();">Professional XP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="showSubTab('subtab3')">Personal XP</a>
+                    <a class="nav-link" onclick="showSubTab('subtab3'); toggleNavbar();">Personal XP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target=”_blank” href="https://github.com/itaruf">
-                        <i class="fab fa-github"></i>
-                        GitHub
+                    <a class="nav-link" target="_blank" href="https://github.com/itaruf" onclick="toggleNavbar();">
+                        <i class="fab fa-github"></i> GitHub
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target=”_blank” href="https://github.com/itaruf">
+                    <a class="nav-link" target="_blank" href="https://github.com/itaruf" onclick="toggleNavbar();">
                         <img src="../Img/itchio-logo-textless-white.png" alt="Itch.io" class="itchio-logo">
                         Itch.io
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target=”_blank” href="https://www.linkedin.com/in/imane-taruf-53040320a/">
-                        <i class="fab fa-linkedin"></i>
-                        LinkedIn
+                    <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/imane-taruf-53040320a/" onclick="toggleNavbar();">
+                        <i class="fab fa-linkedin"></i> LinkedIn
                     </a>
                 </li>
             </ul>

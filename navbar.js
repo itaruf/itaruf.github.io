@@ -29,3 +29,19 @@ $(document).ready(function () {
         $("#professional-placeholder").replaceWith(data);
     });
 });
+
+function toggleNavbar() {
+    var navbarContent = document.getElementById('navbarNav');
+    navbarContent.classList.toggle('collapse');
+}
+
+// Add event listeners to collapse the navbar when a nav-link is clicked
+document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = document.querySelectorAll('.nav-link');
+    var navbarContent = document.getElementById('navbarNav');
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            navbarContent.classList.remove('collapse');
+        });
+    });
+});

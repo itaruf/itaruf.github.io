@@ -223,7 +223,7 @@ img.itchio-logo {
     display: inline-block;
     font-size: 1rem;
     color: white;
-    background-color: #17122be3;
+    background-color: transparent;
     border: none;
     border-radius: 5px;
     cursor: pointer;
